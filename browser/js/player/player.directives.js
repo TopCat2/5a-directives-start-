@@ -1,3 +1,5 @@
+'use strict'
+
 juke.directive('player', function(PlayerFactory) {
     return {
         restrict: 'E',

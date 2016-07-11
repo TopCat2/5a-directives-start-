@@ -28,6 +28,7 @@ juke.controller('AlbumCtrl', function ($scope, PlayerFactory, theAlbum) {
 
 /* ALBUMS (PLURAL) CONTROLLER */
 
+
 juke.controller('AlbumsCtrl', function ($scope, allAlbums) {
 
   $scope.albums = allAlbums;
